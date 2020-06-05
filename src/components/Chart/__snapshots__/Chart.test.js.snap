@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chart /> should render and match the snapshot 1`] = `
+<div>
+  <div>
+    Compare to: 
+    EUR
+  </div>
+  <div>
+    <Dropdown
+      baseClassName="Dropdown"
+      onChange={[Function]}
+      options={
+        Array [
+          "EUR",
+          "CAD",
+        ]
+      }
+      placeholder="Select symbol to compare against"
+      value="EUR"
+    />
+  </div>
+  <div>
+    Time Span: 
+    2020-05-29
+     -&gt; 
+    2020-06-05
+  </div>
+  <div>
+    <a
+      allowSameDay={false}
+      customTimeInput={null}
+      dateFormat="yyyy/MM/dd"
+      dateFormatCalendar="LLLL yyyy"
+      disabled={false}
+      disabledKeyboardNavigation={false}
+      dropdownMode="scroll"
+      enableTabLoop={true}
+      endDate={2020-06-05T05:43:08.813Z}
+      excludeScrollbar={true}
+      focusSelectedMonth={false}
+      maxDate={2020-06-05T05:43:08.814Z}
+      monthsShown={1}
+      nextMonthButtonLabel="Next Month"
+      nextYearButtonLabel="Next Year"
+      onBlur={[Function]}
+      onCalendarClose={[Function]}
+      onCalendarOpen={[Function]}
+      onChange={[Function]}
+      onClickOutside={[Function]}
+      onFocus={[Function]}
+      onInputClick={[Function]}
+      onInputError={[Function]}
+      onKeyDown={[Function]}
+      onMonthChange={[Function]}
+      onSelect={[Function]}
+      onYearChange={[Function]}
+      preventOpenOnFocus={false}
+      previousMonthButtonLabel="Previous Month"
+      previousYearButtonLabel="Previous Year"
+      readOnly={false}
+      renderDayContents={[Function]}
+      selected={1590730988813}
+      selectsStart={true}
+      shouldCloseOnSelect={true}
+      showFullMonthYearPicker={false}
+      showMonthYearPicker={false}
+      showPopperArrow={true}
+      showPreviousMonths={false}
+      showQuarterYearPicker={false}
+      showTimeInput={false}
+      showTimeSelect={false}
+      showTwoColumnMonthYearPicker={false}
+      showYearPicker={false}
+      startDate={1590730988813}
+      strictParsing={false}
+      timeCaption="Time"
+      timeInputLabel="Time"
+      timeIntervals={30}
+      withPortal={false}
+    />
+    <a
+      allowSameDay={false}
+      customTimeInput={null}
+      dateFormat="yyyy/MM/dd"
+      dateFormatCalendar="LLLL yyyy"
+      disabled={false}
+      disabledKeyboardNavigation={false}
+      dropdownMode="scroll"
+      enableTabLoop={true}
+      endDate={2020-06-05T05:43:08.813Z}
+      excludeScrollbar={true}
+      focusSelectedMonth={false}
+      maxDate={2020-06-05T05:43:08.814Z}
+      monthsShown={1}
+      nextMonthButtonLabel="Next Month"
+      nextYearButtonLabel="Next Year"
+      onBlur={[Function]}
+      onCalendarClose={[Function]}
+      onCalendarOpen={[Function]}
+      onChange={[Function]}
+      onClickOutside={[Function]}
+      onFocus={[Function]}
+      onInputClick={[Function]}
+      onInputError={[Function]}
+      onKeyDown={[Function]}
+      onMonthChange={[Function]}
+      onSelect={[Function]}
+      onYearChange={[Function]}
+      preventOpenOnFocus={false}
+      previousMonthButtonLabel="Previous Month"
+      previousYearButtonLabel="Previous Year"
+      readOnly={false}
+      renderDayContents={[Function]}
+      selected={2020-06-05T05:43:08.813Z}
+      selectsEnd={true}
+      shouldCloseOnSelect={true}
+      showFullMonthYearPicker={false}
+      showMonthYearPicker={false}
+      showPopperArrow={true}
+      showPreviousMonths={false}
+      showQuarterYearPicker={false}
+      showTimeInput={false}
+      showTimeSelect={false}
+      showTwoColumnMonthYearPicker={false}
+      showYearPicker={false}
+      startDate={1590730988813}
+      strictParsing={false}
+      timeCaption="Time"
+      timeInputLabel="Time"
+      timeIntervals={30}
+      withPortal={false}
+    />
+  </div>
+  <PlotlyComponent
+    data={
+      Array [
+        Object {
+          "marker": Object {
+            "color": "blue",
+          },
+          "mode": "lines+markers",
+          "type": "scatter",
+          "x": Array [],
+          "y": Array [],
+        },
+      ]
+    }
+    debug={false}
+    layout={
+      Object {
+        "height": 480,
+        "title": "USD to EUR",
+        "width": 640,
+      }
+    }
+    style={
+      Object {
+        "display": "inline-block",
+        "position": "relative",
+      }
+    }
+    useResizeHandler={false}
+  />
+  <Stats
+    prices={Array []}
+  />
+</div>
+`;

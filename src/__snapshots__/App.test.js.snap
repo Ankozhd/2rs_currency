@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <nav>
+        <ul>
+          <li>
+            <ForwardRef
+              to="/"
+            >
+              Chart
+            </ForwardRef>
+          </li>
+          <li>
+            <ForwardRef
+              to="/history"
+            >
+              Historical data
+            </ForwardRef>
+          </li>
+        </ul>
+      </nav>
+      <Home />
+    </header>
+  </div>
+</BrowserRouter>
+`;
