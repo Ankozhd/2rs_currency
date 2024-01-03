@@ -9,7 +9,7 @@
     "ag-grid-community": "^23.1.1",
     "ag-grid-react": "^23.1.1",
     "boostrap": "^2.0.0",
-    "plotly.js": "^1.54.1",
+    "plotly.js": "^2.25.2",
     "plotly.js-basic-dist": "^1.54.1",
     "react": "^16.13.1",
     "react-datepicker": "^3.0.0",
